@@ -1,5 +1,4 @@
 
-
 📡 Telecom Customer Churn Prediction
 🔍 Overview
 Customer churn is a critical challenge in the telecom industry. This project builds a machine learning model to predict whether a customer is likely to churn based on historical data. It includes a Streamlit web application for easy interaction, allowing users to input customer details and get churn predictions.
@@ -48,7 +47,7 @@ Edit
 streamlit run churn_app.py
 This will launch the web app in your browser, where you can input customer details and get churn predictions.
 
-📊 Key Features
+📈 Key Features
 🔹 1. Churn Prediction
 Predict customer churn probability based on input features.
 Supports multiple machine learning models (XGBoost, LightGBM, RandomForest, Logistic Regression, SVM).
@@ -59,7 +58,7 @@ Feature Importance: Identify key factors contributing to churn.
 Survival Analysis: Understand how long customers stay before churning.
 Correlation Heatmap: Visualizes relationships between features.
 Churn vs. Monthly Charges & Tenure: Identify high-risk segments.
-📈 Results & Findings
+📊 Results & Findings
 Customers with month-to-month contracts have a higher churn rate.
 Customers using Electronic Checks as a payment method are more likely to churn.
 Customers with low tenure (0-12 months) have the highest churn probability.
@@ -70,5 +69,4 @@ Add automated recommendations for customer retention.
 Deploy the model as a REST API for integration with business systems.
 🤝 Contributing
 Feel free to contribute by raising issues, suggesting improvements, or submitting pull requests.
-
 
