@@ -1,5 +1,4 @@
 
-Here’s a well-structured README.md file for your Telecom Customer Churn Prediction project:
 
 📡 Telecom Customer Churn Prediction
 🔍 Overview
