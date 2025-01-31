@@ -23,26 +23,23 @@ Customer churn prediction system that helps telecom companies:
 
 **Core Technologies:**
 - **Data Analysis**: Pandas, NumPy, Seaborn, Matplotlib
-- **Machine Learning**: Scikit-learn, XGBoost, LightGBM, CatBoost
-- **ModelOps**: SHAP, MLflow, Hyperopt
-- **Web App**: Streamlit, Plotly
-- **Deployment**: Docker, Git, GitHub Actions
+- **Machine Learning**: Scikit-learn, XGBoost, LightGBM, SVC, Logistic
+- **Web App**: Streamlit
+- **Deployment**: Git, GitHub Actions
 
 ## 📂 Project Structure
 
-📂 Project Structure
-bash
-Copy
-Edit
-📂 Telcom_Churn_Prediction/
+```bash
+Telcom_Churn_Prediction/
 │── 📄 churn_app.py             # Streamlit app for churn prediction
 │── 📄 train_notebook.py        # Jupyter notebook for training ML models
 │── 📄 requirements.txt         # Required dependencies
 │── 📄 README.md                # Project documentation
 │── 📂 data/
-│   ├── Telconnect_data.csv     # Telecom customer dataset
+│   └── 📄 Telconnect_data.csv  # Telecom customer dataset
 │── 📂 models/
-│   ├── best_churn_model.pkl    # Trained ML model
+│   └── 📄 best_churn_model.pkl # Trained ML model
+```
 🚀 How to Run the Project
 
 ## 🚀 Getting Started
