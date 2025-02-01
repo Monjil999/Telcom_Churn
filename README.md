@@ -68,7 +68,7 @@ This will launch the web app in your browser, where you can input customer detai
 
 ### 🔮 Churn Prediction
 - Real-time probability estimates  
-- Multiple model support (XGBoost, LightGBM, CatBoost, RF, SVM)  
+- Multiple model support (XGBoost, LightGBM, Logistic , RF, SVM)  
 - SMOTE-enhanced class balancing  
 - Threshold optimization for business metrics  
 
